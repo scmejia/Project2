@@ -35,3 +35,8 @@ This image shows the drop down menu of all of the units for the different device
 This is the final image with all of the fields filled:
 
 <img width="405" alt="Screen Shot 2022-05-12 at 7 43 06 PM" src="https://user-images.githubusercontent.com/60163380/168184933-7d8c0bce-2dfc-4211-8815-695925988090.png">
+
+
+## Resources Used
+
+For json schema: https://www.mongodb.com/basics/json-schema-examples#:~:text=JSON%20Schema%20is%20an%20IETF,validity%20across%20similar%20JSON%20data.
