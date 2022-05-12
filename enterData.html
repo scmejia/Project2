@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Device Data Input</title>
+        <link rel="stylesheet" type="text/css" href="data.css">
+    </head>
+    <body>
+        <div class="main">
+            <div class="form">
+                    <p class="formTitle">Device Module Input</p>
+            
+                    <input id="entry" type="text" class="fieldInput" placeholder="Name your entry">
+                    <br>
+                    <div class="fieldInput">
+                        <label class="fieldInput1" for="device">Choose a device:</label>
+                        <select class="fieldInput1" name="device" id="devices">
+                            <option value="temp">Temperature</option>
+                            <option value="bp">Blood Pressure</option>
+                            <option value="pulse">Pulse</option>
+                            <option value="oxi">Oximeter</option>
+                            <option value="weight">Weight</option>
+                            <option value="glu">Glucometer</option>
+                        </select>
+                    </div>
+
+                    <input id="data" type="number" class="fieldInput" placeholder="Enter data from chosen device">
+                    
+                    <div class="fieldInput">
+                        <label class="fieldInput2" for="unit">Choose a unit</label>
+                        <select class="fieldInput2" name="unit" id="unit">
+                            <option value="C">Celsius</option>
+                            <option value="F">Fahrenheit</option>
+                            <option value="mmHg">mmHg</option>
+                            <option value="bpm">bpm</option>
+                            <option value="percent">Percent</option>
+                            <option value="lbs">Pounds</option>
+                            <option value="kilos">Kilograms</option>
+                            <option value="mgdL">mg/dL</option>
+                        </select>
+                    </div>
+
+                    <button id="btn1" type="submit" class="submit">Log Input</button>
+            </div>
+        </div>
+    </body>
+
+</html>

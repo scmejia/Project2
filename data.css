@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    scroll-behavior: smooth;
+}
+.main
+{
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    position: absolute;
+    overflow: hidden;
+}
+.form
+{
+    top: 150px;
+    margin: auto;
+    position: relative;
+    width: 280px;
+    transition: .5s;
+}
+.formTitle
+{
+    position: relative;
+    top: -60px;
+    text-align: center;
+    color: #000;
+}
+.fieldInput
+{
+    position: relative;
+    top: -20px;
+    width: 100%;
+    padding: 8px 0;
+    margin: center;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 1px solid #999;
+    outline: none;
+    background: transparent;
+}
+.submit
+{
+    top: 25px;
+    left: 40px;
+    width: 50%;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin: 5px auto;
+    border: 0;
+    outline: none;
+    border-radius: 30px;
+    position: center;
+}
