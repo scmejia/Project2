@@ -1,0 +1,46 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "Valid Devices Schema",
+    "description": "This document displays the schema for the devices for this project",
+    "type": "object",
+    "properties": {
+        "entryTitle": {
+            "type": "string"
+        },
+        "deviceType": {
+            "enum": ["Temperature", "Blood Pressure", "Pulse", "Oximeter", "Weight", "Glucometer"]
+        },
+        "data": {
+            "type": "number"
+        },
+        "unit": {
+            "type": "string",
+            "properties": {
+                "Temperature": {
+                    "enum": ["C", "F"]
+                },
+                "Blood Pressure": {
+                    "enum": ["mmHg"]
+                },
+                "Pulse": {
+                    "enum": ["bpm"]
+                },
+                "Oximeter": {
+                    "enum": ["percent"]
+                },
+                "Weight": {
+                    "enum": ["lbs", "kg"]
+                },
+                "Glucometer": {
+                    "enum": ["mg/dL"]
+                }
+            }
+        }
+    },
+    "required": [
+        "name",  
+        "deviceType",
+        "data",
+        "unit"
+    ]
+}
